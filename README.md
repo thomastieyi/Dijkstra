@@ -23,6 +23,6 @@ See the [API-docs](http://subway-api.cherryhuang.cn:81)
 
 Then use to [localhost:8087](http://localhost:8087/getShortInfo?s=五道口&t=苹果园) to see your result.
 
-## A example on Running
+## An example Running on
 
 ### Website : [subway.cherryhuang.cn](https://subway.cherryhuang.cn:)
