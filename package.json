@@ -1,0 +1,28 @@
+{
+  "name": "dm_app_server",
+  "version": "1.0.0",
+  "description": "use typeScript",
+  "main": "app.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch-server": "nodemon --watch './***/*' -e ts,tsx --exec ts-node ./app.ts"
+  },
+  "author": "tony@USTB",
+  "license": "MIT",
+  "dependencies": {
+    "apidoc": "^0.17.7",
+    "koa": "^2.6.2",
+    "koa-bodyparser": "^4.2.1",
+    "koa-router": "^7.4.0",
+    "koa-sslify": "^2.1.2",
+    "koa2": "^2.0.0-alpha.7",
+    "koa2-cors": "^2.0.6"
+  },
+  "devDependencies": {
+    "@types/koa": "^2.0.47",
+    "@types/koa-router": "^7.0.35",
+    "nodemon": "^1.18.6",
+    "ts-node": "^7.0.1",
+    "typescript": "^3.1.6"
+  }
+}
